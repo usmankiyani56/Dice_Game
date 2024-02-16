@@ -1,0 +1,25 @@
+.box{
+    height: 72px;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 253, 253);
+    color: rgb(6, 2, 2);
+    border: 1.5px solid rgb(5, 5, 5);
+    font-size: 34px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.selected {
+    background-color: black;
+    color: white;
+}
+.errorText {
+    color: red;
+  }
+  
+  .normalText {
+    color: black; /* You can adjust this color as needed */
+  }
+  

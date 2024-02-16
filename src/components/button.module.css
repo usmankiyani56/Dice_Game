@@ -1,0 +1,26 @@
+.primary_btn{
+    padding: 18px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 220px;
+    font-size: 16px;
+    justify-content: center;
+    cursor: pointer;
+}
+.reset_btn{
+    padding: 18px 10px;
+    background-color: rgb(254, 254, 254);
+    color: rgb(8, 8, 8);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    min-width: 220px;
+    font-size: 16px;
+    justify-content: center;
+    cursor: pointer;
+    
+}
