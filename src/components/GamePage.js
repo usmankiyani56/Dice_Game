@@ -8,6 +8,7 @@ function GamePage() {
     const [selectedNumber, setselectedNumber] = useState();
     const [currentDice, setCurrentDice] = useState(1);
     const [error, seterror] = useState("Select the Number");
+    
     const GenerateRandomNumber = () => Math.floor(Math.random() * 6) + 1;
 
     const handleNumberSelection = (value) => {
@@ -30,6 +31,7 @@ function GamePage() {
         }
         setselectedNumber(undefined);
     };
+    
 
     return (
         <div>
@@ -58,7 +60,7 @@ function GamePage() {
 </p>
 
             </div>
-            <Dice currentDice={currentDice} handleClick={handleClick} setscore={setscore} seterror={seterror} />
+            <Dice currentDice={currentDice} handleClick={handleClick} score={score} setscore={setscore} seterror={seterror} />
         </div>
     );
 }
