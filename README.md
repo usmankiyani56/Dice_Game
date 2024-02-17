@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+Welcome to the React Dice Game project! This application offers a digital adaptation of the classic dice game, providing users with an engaging and entertaining experience. Here's an overview of the key features and components of this project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MainPage Component: The MainPage component serves as the entry point for users. It presents a visually appealing interface with the game's title and an option to start playing the game by clicking the "Play Game" button.
 
-## Available Scripts
+GamePage Component: Once the user clicks the "Play Game" button, they are directed to the GamePage component. This component displays the game board, including the current score, a selection of numbers to choose from, and an interactive dice image. Users can click on a number to make a guess and then roll the dice to see if their guess matches the rolled number.
 
-In the project directory, you can run:
+Button Component: The Button component is a reusable UI element used throughout the application to create interactive buttons. It accepts onClick and text props to customize button behavior and appearance.
 
-### `npm start`
+Rules Component: The Rules component provides users with instructions on how to play the dice game. It explains the gameplay mechanics, including selecting a number, rolling the dice, and earning or deducting points based on the guess.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+App Component: The main App component manages the application's state and controls the flow between the MainPage and GamePage components. It utilizes React's useState hook to toggle between the two pages based on whether the game has started.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project showcases the power and versatility of React for building interactive web applications. Whether you're a seasoned player or new to dice games, this project offers a fun and enjoyable experience for all users.
